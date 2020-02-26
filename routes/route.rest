@@ -1,0 +1,11 @@
+GET http://localhost:3000/auth
+
+###
+POST http://localhost:3000/auth
+Content-Type: application/json
+
+{
+    "name": "Humayun Rashid",
+    "email": "Raahat.rashid09@gmail.com",
+    "password": "123"
+}
